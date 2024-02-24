@@ -39,3 +39,25 @@ your git add repository. here m means message
 
 15. if you by-mistake made a wrong commit and you want to undo that commit use command => git restore commit(number)
 
+// sharing your work on github 
+
+First make a new repository, then copy the url of your repository
+go to your project and write the command
+
+git remote add origin url_link(of your repository)
+   git => git command
+   remote => means you are working with urls 
+   add => to add new url 
+   origin => name of the url of your repository. This can be anything.
+
+git remote -v => this shows all the url that are attached to your folder 
+
+git push origin master => this is the command to add or commmit your folder/project on the github 
+   push => push the changes
+   origin => name of the url to which you want to push the changes
+   master => branch which you want to push 
+
+git branch feature => command to make new branch whose name is feature
+   why we create branch ?
+   we create branch so that we don't commit directly on our main branch, So the question arises why we cannot commit directly to the main branch ? Let's understand this so if our code have some error and we directly commit it to our main branch then there will be lots of problem to the user or to the project we are working on, to avoid that complications arised due to our commit on the main branch we create a new branch and commit to that so if their are any error in our commit it won't effect the whole system/project. 
+
