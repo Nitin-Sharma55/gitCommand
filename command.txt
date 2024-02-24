@@ -1,0 +1,41 @@
+Github is a platform/online website which helps us/ allow us to host our git repository(its just a folder where all the changes are saved).
+
+COMMAND FOR GIT:- 
+
+1. command to create a folder -> mkdir foldername (mkdir -> make directory)
+2. ls -> is command to see a list of files inside any directory .
+
+
+Like if you are inside desktop and you want to go inside a folder name git 
+which is inside your desktop for that their is a command or in simple term you want to change repository
+
+3. command -> cd foldername (cd -> change directory)
+
+4. any file which is hidden with a . can be seen using (-a)
+
+5. git init-> this command cretes a git folder which is hidden and it stores any change 
+you make in that folder or file
+
+6. to create a file inside a folder their is command(this is a linux command)
+   command -> touch filename.extension
+
+7. git status -> this command shows which folder has been added to your github and which is not or if you make any type of changes in your file it will show that you need to commit the changes made in the file
+
+8. git add . or git add filname -> command adds the file to your git
+   git add . => adds every file present in the folder to git 
+
+9. git commit -m "hello" -> commits everything or every file which is inside 
+your git add repository. here m means message
+
+10. vi filename -> lets you add something to your file 
+
+11. cat filename -> this command display what is inside your file
+
+12. git log -> this command shows all the history of the commit done
+
+13. linux command to delete a file -> rm -rf filenamez
+
+14. If you by-mistake added something to your git using git add command you can undo it my using command => git restore --staged filename 
+
+15. if you by-mistake made a wrong commit and you want to undo that commit use command => git restore commit(number)
+
